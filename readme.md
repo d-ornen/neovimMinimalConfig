@@ -10,6 +10,9 @@ Note: skip messages complaining about color scheme absence.
 After this you can use your nvim :)
 # Keybindings:
 `<M-h>` - go to prev buffer (works even in :terminal)
+ 
 `<M-l>` - go to next buffer (works as well)
+
 `gcc` - comment line. Also you can use `'motion'gc` or comment in visual mode
+
 Also vim surround is present, but i don't use it much

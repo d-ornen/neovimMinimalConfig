@@ -4,6 +4,10 @@ First put config to `~/.config/nvim/`, then install Packer:
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
+or if you use P*wershell:
+```
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+```
 then run
 `nvim -c PackerSync`
 Note: skip messages complaining about color scheme absence.
